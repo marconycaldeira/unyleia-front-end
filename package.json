@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-react-bootstrap",
+  "name": "UNYLEYA-teste-processo-seletivo",
   "private": true,
-  "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
+  "description": "Teste de front-end do processo seletivo UNYLEYA",
   "version": "0.1.0",
-  "author": "Billy Jacoby <billyjacoby@gmail.com>",
+  "author": "Marcony Caldeira <marconycaldeira@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gatsby": "^2.3.34",
@@ -47,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "homepage": "https://billyjacoby.github.io/gatsby-react-bootstrap-starter/"
+  "homepage": "https://github.com/marconycaldeira/unyleia-front-end/"
 }

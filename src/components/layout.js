@@ -27,7 +27,7 @@ const Layout = ({ children, pageInfo }) => (
     render={data => (
       <>
         <Container fluid className="px-0 main">
-          <Row noGutters className="justify-content-center">
+          <Row noGutters className="justify-content-center text-center">
             <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
@@ -43,12 +43,10 @@ const Layout = ({ children, pageInfo }) => (
         </Container>
         <Container fluid className="px-0">
           <Row noGutters>
-            <Col className="footer-col">
+            <Col className="footer-col text-center">
               <footer>
                 <span>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  Desenvolvido por Gelson Marcony Mendes Caldeira
                 </span>
               </footer>
             </Col>
