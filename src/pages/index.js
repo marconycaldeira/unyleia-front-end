@@ -95,7 +95,7 @@ const Books = () => {
               icon: "success",
             })
             setBooks(false)
-            setBook(false)
+            setBook({})
           })
           .catch(error => {
             swal("Erro ao deletar", error.response.data, "warning")
@@ -157,7 +157,7 @@ const Books = () => {
               <Card.Body>
                 <Card.Title className="d-flex justify-content-between">
                   <span>Livros</span>
-                  <Button onClick={handleShow} variant="success">
+                  <Button onClick={() => handleShow()} variant="success">
                     Cadastrar
                   </Button>{" "}
                 </Card.Title>
