@@ -1,4 +1,4 @@
-### Repositório front-end do teste prático do processo seletivo para desenvolvedor da UNYLEIA
+### Repositório front-end do teste prático do processo seletivo para desenvolvedor da UNYLEYA
 
 
 #### Apresentação da solução
@@ -16,11 +16,11 @@ Para abstrair as requisições AJAX, foi utilizada a biblioteca Axios.
 - Gatsby ([clique aqui](https://www.gatsbyjs.com/docs/quick-start/ "clique aqui") para abrir o link da documentação da instalação)
 
 #### Procedimentos para instalação
-- Clone o projeto https://github.com/marconycaldeira/unyleia-front-end
+- Clone o projeto https://github.com/marconycaldeira/unyleya-front-end
 - Dentro do diretório recém clonado, instale os pacotes node a partir do comando `npm install`
 - Execute o comando `gatsby develop`
 - Acesse pelo seu navegador o endereço informado no terminal (o padrão é http://localhost:8000)
 
 #### Possiveis problemas
 - Os problemas mais frequentes do ecossistema Gatsby/React giram em torno dos seus pacotes e gerenciadores de dependência (npm, yarn, node .etc), logo certifique-se de que todas essas ferramentas estejam atualizadas.
-- Outro problema possível de acontecer é quanto a URL do end-point base da API que a aplicação consome. Se por ventura a o endereço estiver inacessível, certifique-se de que sua API esteja online e se o endereço dela está como o mesmo do [arquivo de instância do axios](https://github.com/marconycaldeira/unyleia-front-end/blob/master/src/services/http.js "arquivo de instância do axios"). **Muita atenção com o numero da porta**
+- Outro problema possível de acontecer é quanto a URL do end-point base da API que a aplicação consome. Se por ventura a o endereço estiver inacessível, certifique-se de que sua API esteja online e se o endereço dela está como o mesmo do [arquivo de instância do axios](https://github.com/marconycaldeira/unyleya-front-end/blob/master/src/services/http.js "arquivo de instância do axios"). **Muita atenção com o numero da porta**
