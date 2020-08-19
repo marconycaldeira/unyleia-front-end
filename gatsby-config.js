@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/front-end",
   siteMetadata: {
-    title: `Teste processo seletivo UNYLEYA`,
+    title: `BIBLIOTECA UNYLEYA`,
     description: `Teste de front-end do processo seletivo UNYLEYA`,
     author: `Gelson Marcony Mendes Caldeira`,
   },
