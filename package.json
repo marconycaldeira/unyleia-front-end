@@ -23,7 +23,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.6.1",
-    "react-loading-overlay": "^1.0.1"
+    "react-loading-overlay": "^1.0.1",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
